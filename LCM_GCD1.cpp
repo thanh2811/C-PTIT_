@@ -32,7 +32,7 @@ void Res(){
 // }
 
 int main(){
-    int test = 1;
+    int test;
     cin>>test;
     while(test--){
         Res();
