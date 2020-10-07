@@ -16,6 +16,7 @@ int main(){
                 if(n>1) res=n;
 			}
 		}
+		
         if(res>0) cout<<res<<endl;
 		else cout<<n<<endl;
 	}

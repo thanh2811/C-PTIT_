@@ -9,12 +9,12 @@ void Res(){
     ll x,y,z,n;
     cin>> x >> y >> z >> n;
 
-    long long a=x*y / __gcd(x,y);
-    long long b=a*z / __gcd(a,z); // b = gcd(x, y, z)
+    ll a=x*y / __gcd(x,y);
+    ll b=a*z / __gcd(a,z); // b = gcd(x, y, z)
 
-    long long nn=1;
+    ll nn=1;
     for(int i=1;i<n;i++) nn*=10; // nn la so co n chu so nho nhat
-    long long m=nn/b;            // vi du:   m = 1000 / 333 = 3;
+    ll m=nn/b;            // vi du:   m = 1000 / 333 = 3;
 
     if(b>nn*10) cout<<"-1"<<endl;
     else if(m*b==nn) cout<<nn<<endl;

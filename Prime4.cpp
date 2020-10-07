@@ -12,6 +12,7 @@ void Res(){
     memset(a,0,sizeof(a));
     a[1] = 1;
     cout<<1<<" ";
+    
 
     // tuong tu sang nguyen to: 
 
